@@ -1,0 +1,81 @@
+.universities {
+  background-color: #99d9ea;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding-top: 12%;
+  color: #fff;
+}
+
+.universities > .container > .otherUniversities {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.university-card-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.apply-btn {
+  padding: 8px;
+  background: pink;
+  width: 280px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  .universities {
+    padding-top: 30%;
+    color: #fff;
+  }
+  .universities > .container > .university-cards {
+    padding: 0;
+  }
+
+  .universities > .container > .otherUniversities {
+    width: 95%;
+    margin: 20px auto;
+  }
+  .card-title {
+    font-size: 12px;
+    color: red;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .universities {
+    padding-top: 25%;
+    color: #fff;
+  }
+  .universities > .container > .university-cards {
+    padding: 0;
+  }
+
+  .universities > .container > .otherUniversities {
+    width: 95%;
+    margin: 20px auto;
+  }
+  .card-title {
+    font-size: 12px;
+    color: red;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  .universities > .container > .university-cards {
+    padding: 0;
+  }
+}

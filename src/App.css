@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+.icon:hover {
+  cursor: pointer;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+}
+
+.row {
+  width: 50%;
+  position: relative;
+  z-index: 1000;
+}
+button.primary-btn {
+  padding: 17px 30px;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgba(0 0 0 /9%);
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+button.menu {
+  margin: 30px 10px 0 0;
+  padding: 17px 30px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: none;
+}
+
+#heading {
+  text-align: center;
+  padding: 40px 0;
+}
+#heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1eb2a6;
+  text-transform: uppercase;
+}
+
+#heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+}
+
+.outline-btn {
+  margin-top: 8px;
+  box-shadow: none;
+  border: 2px solid #1eb2a6;
+  width: 100%;
+  transition: 0.5s;
+  padding: 12px;
+  color: #1eb2a6;
+  background: #fff;
+  cursor: pointer;
+}
+.outline-btn:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+.shadow {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+}
+
+/* --------------------------responsive---------------------------------- */
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 90%;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .row {
+    width: 100%;
+  }
+  button.primary-btn {
+    padding: 12px 20px;
+    margin: 20px 5px 0 0;
+  }
+  #heading h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  #heading h3 {
+    font-size: 18px;
+  }
+  p {
+    line-height: 25px;
+    font-size: 16px;
+  }
+  .outline-btn {
+    margin-top: 6px;
+    padding: 6px;
+  }
+}
