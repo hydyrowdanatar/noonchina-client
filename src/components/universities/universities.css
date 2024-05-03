@@ -10,7 +10,7 @@
 }
 
 .universities > .container > .otherUniversities {
-  width: 60%;
+  width: 70%;
   margin: 20px auto;
 }
 
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 600px) {
   .universities {
-    padding-top: 40%;
+    padding-top: 50%;
     color: #fff;
   }
   .universities > .container > .university-cards {
