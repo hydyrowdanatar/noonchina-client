@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 600px) {
   .universities {
-    padding-top: 30%;
+    padding-top: 40%;
     color: #fff;
   }
   .universities > .container > .university-cards {

@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(/public/bgIm.png);
+  background-image: url(/bgIm.png);
   background-size: cover;
   background-attachment: fixed;
   background-color: #55e0d4;
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 1000px) {
   .hero {
-    padding-top: 35%;
+    padding-top: 40%;
     padding-bottom: 30px;
     height: fit-content;
     background: #99d9ea;

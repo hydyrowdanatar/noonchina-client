@@ -57,7 +57,7 @@ const University = () => {
       dataIndex: "city",
       key: "city",
       fixed: "right",
-      width: 130,
+      width: 160,
       render: () => (
         <a href={url} target="_blank" className="outline-btn">
           {t("apply")}

@@ -3,25 +3,25 @@ import i18n from "./plugins/react.i18next";
 export const homeAbout = [
   {
     id: 1,
-    cover: "/public/aboutUsIcons/chinaLang.png",
+    cover: "/aboutUsIcons/chinaLang.png",
     title: "LLD",
     desc: "LLDp1",
   },
   {
     id: 2,
-    cover: "/public/aboutUsIcons/bachelor.png",
+    cover: "/aboutUsIcons/bachelor.png",
     title: "BACHELOR",
     desc: "BACHELORp1",
   },
   {
     id: 3,
-    cover: "/public/aboutUsIcons/magister.png",
+    cover: "/aboutUsIcons/magister.png",
     title: "MAGISTER",
     desc: "MAGISTERp1",
   },
   {
     id: 4,
-    cover: "/public/aboutUsIcons/collage.png",
+    cover: "/aboutUsIcons/collage.png",
     title: "COLLEGE",
     desc: "COLLEGEp1",
   },
@@ -54,37 +54,37 @@ export const awrapper = [
 export const online = [
   {
     id: 1,
-    cover: "/public/whyWeIcons/users.png",
+    cover: "/whyWeIcons/users.png",
     courseName: "box1T",
     course: "box1P",
   },
   {
     id: 2,
-    cover: "/public/whyWeIcons/star.png",
+    cover: "/whyWeIcons/star.png",
     courseName: "box2T",
     course: "box2P",
   },
   {
     id: 3,
-    cover: "/public/whyWeIcons/document.png",
+    cover: "/whyWeIcons/document.png",
     courseName: "box3T",
     course: "box3P",
   },
   {
     id: 4,
-    cover: "/public/whyWeIcons/plane.png",
+    cover: "/whyWeIcons/plane.png",
     courseName: "box4T",
     course: "box4P",
   },
   {
     id: 5,
-    cover: "/public/whyWeIcons/home.png",
+    cover: "/whyWeIcons/home.png",
     courseName: "box5T",
     course: "box5P",
   },
   {
     id: 6,
-    cover: "/public/whyWeIcons/statistics.png",
+    cover: "/whyWeIcons/statistics.png",
     courseName: "box6T",
     course: "box6P",
   },
@@ -95,4 +95,4 @@ export const changeLanguage = (lng) => {
   window.localStorage.setItem("language", lng);
 };
 
-export const base_url = "http://localhost:1337";
+export const base_url = "http://95.85.121.153:1339";
