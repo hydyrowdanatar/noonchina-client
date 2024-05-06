@@ -19,7 +19,7 @@ export const resources = {
 };
 
 i18n.use(initReactI18next).init({
-  lng: localStorage.getItem("language") || "tm",
+  lng: localStorage.getItem("language") || "ru",
   fallbackLng: "tm",
   resources,
   ns: ["translations"],

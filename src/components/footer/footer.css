@@ -24,7 +24,7 @@ footer .container {
 
 .footer-logo > div {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   column-gap: 15px;
 }
 

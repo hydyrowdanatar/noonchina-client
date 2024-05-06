@@ -19,13 +19,23 @@ const Footer = () => {
                   <span className="">Study in China</span>
                 </div>
                 <div>
-                  <MdLocationOn size={32} />
-                  <div className="address">
-                    <p>
+                  <MdLocationOn
+                    style={{
+                      width: "60px",
+                      height: "60px",
+                      marginTop: "-10px",
+                    }}
+                  />
+                  <div className="address" style={{ textAlign: "justify" }}>
+                    {/* <p>
                       <span>G.Kulyýew</span> (obýeznoý)
                     </p>
                     <p>
                       <span>Gujurly ýaşlar</span> bina
+                    </p> */}
+                    <p>
+                      Zone C, Binwang Market, Choucheng Street, Yiwu City,
+                      Zheijang Province, China 081.082.083
                     </p>
                   </div>
                 </div>
@@ -69,9 +79,15 @@ const Footer = () => {
                   <FaInstagram className="fIcon" /> Nur maslahat
                 </a>
               </li>
-              <li>+99365935713</li>
-              <li>+99365671367</li>
-              <li>rovachrovach708@gmail.com</li>
+              <li>
+                <a href="tel:+8613079909963">+86 130 7990 9963</a>
+              </li>
+              <li>
+                <a href="tel:+8613209900101">+86 132 0990 0101</a>
+              </li>
+              <li>
+                <a href="mailto:nooncslt@gmail.com">nooncslt@gmail.com</a>
+              </li>
             </ul>
           </div>
         </div>
