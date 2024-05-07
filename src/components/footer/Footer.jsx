@@ -65,7 +65,7 @@ const Footer = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.tiktok.com/@user7406615703171"
+                  href="https://www.tiktok.com/@noon.consulting"
                   target="_blank"
                 >
                   <FaTiktok className="fIcon" /> Noon consulting
